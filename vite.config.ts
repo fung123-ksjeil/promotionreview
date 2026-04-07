@@ -7,7 +7,7 @@ import { nodePolyfills } from "vite-plugin-node-polyfills";
 export default defineConfig({
   // GitHub Pages 배포 시 VITE_BASE_PATH 환경변수로 base URL을 설정합니다.
   // 예: VITE_BASE_PATH=/absenceautoprint/
-  base: process.env.VITE_BASE_PATH || "/",
+  base: "/promotionreview/",
   plugins: [
     nodePolyfills({ include: ["buffer", "stream", "util", "events"] }),
     react(),
