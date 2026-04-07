@@ -1,0 +1,20 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Replit 전용 파일 (GitHub에 올리지 않음)
+.replit
+.cache
+.upm
+.agents
+.local
+.pythonlibs
+replit.nix
+attached_assets
+
+# GitHub Actions 워크플로 파일은 GitHub에서 직접 생성
+# (Replit OAuth가 workflow scope 없음)
+.github/
